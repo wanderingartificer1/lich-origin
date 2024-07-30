@@ -1,5 +1,5 @@
-execute unless block ~ ~ ~ #origins-plus-plus:non_solid run function origins-plus-plus:lunar-path/hit_block
-execute if score #hit Lich matches 0 as @e[tag=!chainray,distance=..1.5] at @s run function origins-plus-plus:lunar-path/hit_entity
+execute unless block ~ ~ ~ #origins-plus-plus:non_solid run function lich-origin:data/functions/hit_block
+execute if score #hit Lich matches 0 as @e[tag=!chainray,distance=..1.5] at @s run function lich-origin:data/functions/hit_entity
 scoreboard players add #distance Lich 1
 execute if score #hit Lich matches 0 if score #distance Lich matches ..400 positioned ^ ^ ^0.1 run function origins-plus-plus:lunar-path/ray_explode
 particle minecraft:dust 0 0 0 .7 ~ ~ ~ 0.1 0.1 0.1 1 1 normal
