@@ -1,6 +1,6 @@
 {
-    "name":"§cExiled",
-    "description":"Villagers prices are heightened and iron golems attack you on sight.",
+    "name":"§cUndead Form",
+    "description":"As you are now undead Iron Golems will attack you on sight and you will take additional damage from Weapons with Smite",
     "type":"origins:multiple",
     "undead":{
       "type":"origins:entity_group",
