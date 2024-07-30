@@ -44,14 +44,6 @@
                         "show_icon": true,
                         "effect": "minecraft:strength",
                         "amplifier": 2
-                    },
-                    {
-                        "duration": 300,
-                        "is_ambient": false,
-                        "show_particles": false,
-                        "show_icon": true,
-                        "effect": "minecraft:regeneration",
-                        "amplifier": 0
                     }
                 ]
             }
