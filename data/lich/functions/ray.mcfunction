@@ -1,6 +1,6 @@
-execute if score #hit Lich matches 0 as @e[tag=!chainray,distance=..1.5] at @s run function lich-origin:data/functions/hit_entity
-scoreboard players add #distance Lunar_Path 1
-execute if score #hit Lich matches 0 if score #distance Lich matches ..400 positioned ^ ^ ^0.1 run function lich-origin:data/functions/ray
+execute if score #hit Lich matches 0 as @e[tag=!chainray,distance=..1.5] at @s run function lich-origin:functions/hit_entity
+scoreboard players add #distance Lich 1
+execute if score #hit Lich matches 0 if score #distance Lich matches ..400 positioned ^ ^ ^0.1 run function lich-origin:functions/ray
 particle minecraft:dust 0 0 0 .7 ~ ~ ~ 0.1 0.1 0.1 1 1 normal
 particle minecraft:dust 0.086 0 0 .7 ~ ~ ~ 0.1 0.1 0.1 1 1 normal
 particle minecraft:dust 0.086 0.027 0.027 .7 ~ ~ ~ 0.1 0.1 0.1 1 1 normal
