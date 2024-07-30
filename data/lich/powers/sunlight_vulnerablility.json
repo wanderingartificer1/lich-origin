@@ -1,5 +1,7 @@
 {
-	"type":"origins:multiple",
+    "name": "Sunlight Vulnerability",
+    "description": "As an undead, you become weaker during the day and burn in direct sunlight.",
+    "type":"origins:multiple",
 	"burn_in_sunlight":{
 		"type":"origins:burn",
 		"interval":20,
