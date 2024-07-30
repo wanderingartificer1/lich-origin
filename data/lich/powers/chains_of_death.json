@@ -7,11 +7,11 @@
 		},
 		"if_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:lunar-path/start_ray_explode"
+			"command":"function lich-origin:data/functions/start_ray_explode"
 		},
 		"else_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:lunar-path/start_ray"
+			"command":"function lich-origin:data/functions/start_ray"
 		}
 	},
 	"cooldown":250,
