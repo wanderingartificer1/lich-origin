@@ -46,7 +46,7 @@
                         "show_particles": true,
                         "show_icon": true,
                         "effect": "minecraft:regeneration",
-                        "amplifier": 1
+                        "amplifier": 0
                     }
                 ]
             }
