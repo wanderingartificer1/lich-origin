@@ -1,4 +1,6 @@
 {
+	"name": "Undead Form",
+    	"description": "As an undead, you are immune to poison, heal from instant damage but take damage from instant healing. Additionally, you are concidered a threat in a village causing nearby iron golems to attack you.",
 	"type":"origins:multiple",
 	"undead":{
 		"type":"origins:entity_group",
