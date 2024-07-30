@@ -1,6 +1,6 @@
 {
     "name": "§2Strength of the Night",
-    "description": "During the nightime, you get stronger.",
+    "description": "During the nightime you get stronger, faster, and become more durable",
     "type": "origins:action_over_time",
     "condition": {
         "type": "origins:daytime",
