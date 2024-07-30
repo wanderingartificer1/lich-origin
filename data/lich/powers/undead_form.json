@@ -9,7 +9,7 @@
 		"interval":10,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"function lich-origin:data/functions/iron_golem"
+			"command":"function lich-origin:functions/iron_golem"
 		}
 	},
 	"iron_golem_no":{
@@ -17,7 +17,7 @@
 		"interval":10,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"function lich-origin:data/functions/iron_golem_no"
+			"command":"function lich-origin:functions/iron_golem_no"
 		}
 	}
 }
