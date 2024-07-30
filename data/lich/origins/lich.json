@@ -1,16 +1,16 @@
 {
 	"powers": [
-		"lunarpath:strength_of_the_night",
-		"lunarpath:summon_fangs",
-		"lunarpath:chains_of_death",
-		"lunarpath:from_beyond_the_grave",
-		"lunarpath:explosion_immune",
-		"lunarpath:great_deal",
-		"lunarpath:sunlight_terror",
-		"lunarpath:exiled",
-		"lunarpath:cursed_being",
-		"lunarpath:weakened_by_all"
-		"lich:wither_immunity"
+		"lich::strength_of_the_night",
+		"lich:summon_fangs",
+		"lich:chains_of_death",
+		"lich:from_beyond_the_grave",
+		"lich::ancient_knowledge",
+		"lich::explosion_immune",
+		"lich:wither_immunity",
+		"lich:sunlight_vulnerablility",
+		"lich:undead_form",
+		"lich:frail_form"
+
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
