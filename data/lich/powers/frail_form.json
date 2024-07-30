@@ -1,5 +1,6 @@
 {
-	"type":"origins:multiple",
+	  "name": "Frail Form",
+    "description": "Your undead body falls apart easily. You take 25% more damage from all mobs",
 	"more_damage_default":{
 		"type":"origins:modify_damage_taken",
 		"modifier":{
