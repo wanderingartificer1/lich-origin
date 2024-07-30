@@ -1,0 +1,10 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+	   "attribute":"minecraft:generic.luck",
+	   "operation":"multiply_base",
+	   "value":100
+	},
+	"name":"§2Ancient Knowledge",
+	"description":"You have ancient knoledge of foes and know how to gain materials for rituals easier. You have a better chance of recieving rarer drops when you kill a mob."
+}
