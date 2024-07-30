@@ -1,48 +1,23 @@
 {
-    "name":"§cUndead Form",
-    "description":"As you are now undead Iron Golems will attack you on sight and you will take additional damage from Weapons with Smite",
-    "type":"origins:multiple",
-    "undead":{
-      "type":"origins:entity_group",
-      "group":"undead",
-      "name":"Undead"
-    },
-    "iron_golem":{
-       "type":"origins:action_over_time",
-       "interval":10,
-       "entity_action":{
-          "type":"origins:and",
-          "actions":[
-             {
-                "type":"origins:execute_command",
-                "command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID",
-                "permission_level":2
-             },
-             {
-                "type":"origins:execute_command",
-                "command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
-                "permission_level":2
-             }
-          ]
-       }
-    },
-    "iron_golem_no":{
-       "type":"origins:action_over_time",
-       "interval":10,
-       "entity_action":{
-          "type":"origins:and",
-          "actions":[
-             {
-                "type":"origins:execute_command",
-                "command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
-                "permission_level":2
-             },
-             {
-                "type":"origins:execute_command",
-                "command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
-                "permission_level":2
-             }
-          ]
-       }
-    }
+	"type":"origins:multiple",
+	"undead":{
+		"type":"origins:entity_group",
+		"group":"undead"
+	},
+	"iron_golem":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function lich-origin:data/functions/iron_golem"
+		}
+	},
+	"iron_golem_no":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function lich-origin:data/functions/iron_golem_no"
+		}
+	}
 }
