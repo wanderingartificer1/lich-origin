@@ -1,9 +1,8 @@
 {
 	"powers": [
-		"lunarpath:night_boost",
+		"lunarpath:strength_of_the_night",
 		"lunarpath:summon_fangs",
 		"lunarpath:chains_of_death",
-		"lunarpath:pluck",
 		"lunarpath:from_beyond_the_grave",
 		"lunarpath:explosion_immune",
 		"lunarpath:great_deal",
@@ -11,10 +10,11 @@
 		"lunarpath:exiled",
 		"lunarpath:cursed_being",
 		"lunarpath:weakened_by_all"
+		"lich:wither_immunity"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
 	"impact": 3,
-	"name": "§6Lich§0",
-	"description": "You are a powerful, undead being."
+	"name": "Lich",
+	"description": "You are a Lich, a powerful undead."
 }
